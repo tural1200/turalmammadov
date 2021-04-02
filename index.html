@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icon.ico" />
+    <!--Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TURAL MAMMADOV</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_s3ICD5ERjFANSY3gxJnnY");
+      })();
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid navbar_container">
+        <!-- Particles animation -->
+        <div id="particles-js"></div>
+        <!-- logo and navbar -->
+        <div class="row my-row">
+          <div class="col-6 left_col">
+            <a href="#hero"
+              ><img class="logo" src="/img/logo.png" alt="logo"
+            /></a>
+          </div>
+          <div class="col-6 right_col">
+            <ul class="desktop_menu">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger_menu">
+              <div class="btn_line"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile device menu -->
+        <div class="mobile_menu">
+          <ul>
+            <li><a class="mobile_menu_links" href="#hero">Home</a></li>
+            <li><a class="mobile_menu_links" href="#about">About</a></li>
+            <li><a class="mobile_menu_links" href="#projects">Projects</a></li>
+            <li><a class="mobile_menu_links" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Hero section -->
+        <section id="hero">
+          <h1>Hi, my name is Tural</h1>
+          <p>
+            I am Front-end developer. <br />
+            In this website you can get some information about me and my works
+          </p>
+        </section>
+      </div>
+    </header>
+    <main>
+      <!-- About -->
+      <section id="about">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skills_container">
+              <div class="heading">
+                <h1>skills</h1>
+              </div>
+              <div class="container skills">
+                <div class="skill_box" data-aos="fade-up">
+                  <img src="img/html.svg" alt="" />
+                  <span>html5</span>
+                </div>
+                <div class="skill_box" data-aos="fade-up">
+                  <img src="img/css-3.svg" alt="" />
+                  <span>css3</span>
+                </div>
+                <div class="skill_box" data-aos="fade-up">
+                  <img src="img/js.svg" alt="" />
+                  <span>javascript</span>
+                </div>
+                <div class="skill_box" data-aos="fade-up">
+                  <img src="img/react.svg" alt="" />
+                  <span>react js</span>
+                </div>
+                <div class="skill_box" data-aos="fade-up">
+                  <img src="img/Git_icon.svg.png" alt="" />
+                  <span>git</span>
+                </div>
+                <div class="skill_box" data-aos="fade-up">
+                  <img src="img/github.svg" alt="" />
+                  <span>github</span>
+                </div>
+                <div class="skill_box" data-aos="fade-up">
+                  <img src="img/bootstrap.png" alt="" />
+                  <span>bootstrap</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about_container">
+              <div class="heading">
+                <h1>about me</h1>
+              </div>
+              <div class="card my_card" data-aos="fade-up">
+                <div class="card-body">
+                  <p class="card-text">
+                    Although software development is not my specialty, my interest
+                    in software goes back many years. My interest in software has
+                    pushed me towards becoming a software developer. Over the years,
+                    I have developed myself in front-end development and now I continue my life by doing what I love.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </section>
+      <!-- Projects -->
+      <section id="projects">
+        <div class="heading">
+          <h1>projects</h1>
+        </div>
+        <div class="row projects">
+          <div class="col-sm">
+            <div class="project_container">
+              <div class="card" style="width: 22rem;">
+                <div class="card-body">
+                  <img src="img/scandinavian.png" alt="">
+                  <h5 class="card-title">Scandinavian</h5>
+                  <a target="_blank" href="https://scandinaviantural.netlify.app"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="project_container">
+              <div class="card" style="width: 22rem;">
+                <div class="card-body">
+                  <img src="img/sign-up-tural.png" alt="">
+                  <h5 class="card-title">Sign-up demo</h5>
+                  <a target="_blank" href="https://sign-up-tural.netlify.app/"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="project_container">
+              <div class="card" style="width: 22rem;">
+                <div class="card-body">
+                  <img src="img/scandinavian.png" alt="">
+                  <h5 class="card-title">Scandinavian</h5>
+                  <a href="#"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="contact">
+        <div class="heading">
+          <h1>contact</h1>
+        </div>
+        <!-- Contact form -->
+        <div class="form-container">
+          <form id="contact_form">
+            <label for="name">name</label> <br />
+
+            <input id="name" type="text" required />
+
+            <label for="email">email</label> <br />
+
+            <input id="email" type="email" required />
+
+            <label for="msg">message</label> <br />
+
+            <textarea id="msg" required></textarea>
+
+            <button onclick="sendMail()" type="button">
+              <span>send</span>
+            </button>
+          </form>
+        </div>
+        <!-- Social networks -->
+        <div class="social">
+          <div class="box">
+            <a
+              href="https://www.linkedin.com/in/tural-memmedov-69b558143/"
+              target="blank"
+              ><span class="linkedin_profile"></span
+            ></a>
+          </div>
+          <div class="box">
+            <a href="https://github.com/tural1200" target="blank"
+              ><span class="github_profile"></span
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="copyright">
+        <h5>Tural Mammadov © 2021</h5>
+      </section>
+    </footer>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
