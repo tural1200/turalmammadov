@@ -10,10 +10,10 @@ const Hero = () => {
         className="mb-[1.25rem] animate-fade-in-up"
       />
       <p className="text-2xl font-normal mb-[1.875rem] animate-fade-in-up delay-200">
-        Hi! I'm Tural 👋🏻
+        Hi! I&apos;m Tural 👋🏻
       </p>
       <p className="text-[2rem] font-semibold max-w-[26.75rem] text-center mb-[1.875rem] animate-fade-in-up delay-400">
-        I'm a Frontend Developer based in Baku, Azerbaijan
+        I&apos;m a Frontend Developer based in Baku, Azerbaijan
       </p>
       <p className="text-[1rem] leading-[1.5] font-normal max-w-[26.75rem] text-center mb-[2.5rem] animate-fade-in-up delay-600">
         Experienced front-end developer with a passion for crafting elegant and
