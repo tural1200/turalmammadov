@@ -21,7 +21,7 @@ const Hero = () => {
         web development.
       </p>
       <div className="flex flex-wrap justify-center gap-[1.25rem] animate-fade-in-up delay-800">
-        <ButtonLink href="mailto:me@turalmammadov.dev">Contact Me</ButtonLink>
+        <ButtonLink href="mailto:info@turalmammadov.dev">Contact Me</ButtonLink>
         <ButtonLink
           href="/pdf/Tural-Mammadov-CV.pdf"
           variant="secondary"
