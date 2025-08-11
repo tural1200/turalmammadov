@@ -20,7 +20,7 @@ const ButtonLink = ({
       href={href}
       className={`${
         variant === "primary" ? "bg-black text-white" : "bg-white text-black"
-      } px-[1.25rem] py-[0.625rem] rounded-[1.875rem] ${className}`}
+      } px-[1.25rem] py-[0.825rem] rounded-[1.875rem] text-center ${className}`}
       {...props}
     >
       {children}
