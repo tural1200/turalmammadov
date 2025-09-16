@@ -43,6 +43,13 @@ const projects: Project[] = [
     link: "https://new.bakuelectronics.az",
     tags: ["React", "Next.js"],
   },
+  {
+    id: 7,
+    title: "Kitably",
+    image: "/images/kitably.png",
+    link: "https://kitably.az",
+    tags: ["Php", "Vanilla JS"],
+  },
 ];
 
 export { projects };
