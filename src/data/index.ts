@@ -50,6 +50,13 @@ const projects: Project[] = [
     link: "https://kitably.az",
     tags: ["Php", "Vanilla JS"],
   },
+  {
+    id: 8,
+    title: "E-QANUN",
+    image: "/images/e-qanun.png",
+    link: "https://e-qanun.az",
+    tags: ["React", "Next.js"],
+  },
 ];
 
 export { projects };
