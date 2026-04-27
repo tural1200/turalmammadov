@@ -19,7 +19,7 @@ const Hero = () => {
       </p>
       <p className="text-[1rem] leading-[1.5] font-normal max-w-[26.75rem] mb-[1.5rem] animate-fade-in-up delay-600">
         Experienced front-end developer with a passion for crafting elegant and
-        efficient user interfaces. Over three years of hands-on experience in
+        efficient user interfaces. Over 4 years of hands-on experience in
         web development.
       </p>
       <div className="flex self-start gap-[0.75rem] mb-[1.5rem] animate-fade-in-up delay-600">
